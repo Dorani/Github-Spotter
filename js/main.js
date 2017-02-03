@@ -10,9 +10,14 @@ $(document).ready(function(){
         client_secret:'7b655a83147f4123df2b87cb9edd97d1ff59bde0'
       }
     }).done(function(user){
-      console.log(user);
+      $('#profile').html(`
+        ${user.name}
+
+        `);
     });
   });
 });
 
 //makes request to url, sending along our credentials and gives us this user's info in obj format
+//instead of concatinating everything, we will be using template literals which are part of es6 syntax
+ //it allows us to use multiple lines and inserting variables
