@@ -18,7 +18,7 @@ $(document).ready(function(){
           <div class="panel-body">
             <div class="row">
               <div class="col-md-3">
-                <img class="thumbnail" src="${user.avatar_url}">
+                <img class="thumbnail avatar" src="${user.avatar_url}">
                </div>
                <div class="col-md-9">
 
