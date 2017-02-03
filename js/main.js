@@ -26,13 +26,12 @@ $(document).ready(function(){
                 <div class="col-md-7">
                   <strong>${repo.name}</strong>: ${repo.description}
                 </div>
-
                 <div class="col-md-3">
                 <span class="label label-default">Forks: ${repo.forks_count}</span>
                 <span class="label label-primary">Watchers:${repo.watchers_count}</span>
                 <span class="label label-success">Stars:${repo.stargazers_count}</span>
+                <span class="label label-success">Language:${repo.language}</span>
                 </div>
-
                 <div class="col-md-2">
                 <a href="${repo.html_url}" targets="_blank" class="btn btn-default">Repo Page</a>
               </div>
