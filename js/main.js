@@ -1,6 +1,6 @@
 $(document).ready(function(){
-  $('#searchUser').on('keyup', function(){
-    console.log('keypressed');
+  $('#searchUser').on('keyup', function(e){
+    var username = e.target.value;
   });
 });
 //connecting
