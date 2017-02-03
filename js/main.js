@@ -16,10 +16,16 @@ $(document).ready(function(){
             <h3 class="panel-title">${user.name}</h3>
           </div>
           <div class="panel-body">
-            Panel content
+            <div class="row">
+              <div class="col-md-3">
+                <img class="thumbnail" src="${user.avatar_url}">
+               </div>
+               <div class="col-md-9">
+
+               </div>
+             </div>
           </div>
         </div>
-
         `);
     });
   });
