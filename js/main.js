@@ -34,8 +34,7 @@ $(document).ready(function(){
                 </div>
 
                 <div class="col-md-2">
-
-
+                <a href="${repo.html_url}" targets="_blank" class="btn btn-default">Repo Page</a>
               </div>
            </div>
           </div>
