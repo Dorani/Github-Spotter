@@ -27,6 +27,12 @@ $(document).ready(function(){
                 <span class="label label-success">Followers:${user.followers}</span>
                 <span class="label label-info">Following:${user.following}</span>
                 <br><br>
+                <ul class="list-group">
+                  <li class="list-group-item">Company: ${user.company}</li>
+                  <li class="list-group-item">Website/blog: ${user.blog}</li>
+                  <li class="list-group-item">Location: ${user.location}</li>
+                  <li class="list-group-item">Member Since: ${user.create_at}</li>
+                </ul>
                </div>
              </div>
           </div>
