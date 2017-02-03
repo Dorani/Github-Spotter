@@ -11,13 +11,35 @@ $(document).ready(function(){
       }
     }).done(function(user){
       $.ajax({
-        url:url:'https://api.github.com/users/' + username + '/repos'
+        url:'https://api.github.com/users/'+username+'/repos',
         data:{
           client_id:'6f73ca918108541caa59',
           client_secret:'7b655a83147f4123df2b87cb9edd97d1ff59bde0'
 
+        }
       }).done(function(repos){
-        
+        $.each(repos, function(index, repo){
+          $('#repos').append(`
+            <div class="well">
+              <div class="row">
+                <div class="col-md-7">
+                  <strong>${repo.name}</strong>
+                </div>
+
+                <div class="col-md-3">
+
+                </div>
+
+                <div class="col-md-2">
+
+
+              </div>
+           </div>
+          </div>
+
+
+          `);
+        });
       });
       $('#profile').html(`
         <div class="panel panel-default">
