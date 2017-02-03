@@ -24,11 +24,13 @@ $(document).ready(function(){
             <div class="well">
               <div class="row">
                 <div class="col-md-7">
-                  <strong>${repo.name}</strong>
+                  <strong>${repo.name}</strong>: ${repo.description}
                 </div>
 
                 <div class="col-md-3">
-
+                <span class="label label-default">Forks: ${repo.forks_count}</span>
+                <span class="label label-primary">Watchers:${repo.watchers_count}</span>
+                <span class="label label-success">Stars:${repo.stargazers_count}</span>
                 </div>
 
                 <div class="col-md-2">
