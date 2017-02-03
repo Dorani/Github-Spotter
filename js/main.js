@@ -19,6 +19,7 @@ $(document).ready(function(){
             <div class="row">
               <div class="col-md-3">
                 <img class="thumbnail avatar" src="${user.avatar_url}">
+                <a target="_blank" class="btn btn-primary btn-block" href="${user.html_url}"></a>
                </div>
                <div class="col-md-9">
 
