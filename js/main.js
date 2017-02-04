@@ -60,6 +60,7 @@ $(document).ready(function(){
                 <span class="label label-info">Following: ${user.following}</span>
                 <br><br>
                 <ul class="list-group">
+                  <li class="list-group-item">Name: ${user.name}</li>
                   <li class="list-group-item">Company: ${user.company}</li>
                   <li class="list-group-item">Bio: ${user.bio}</li>
                   <li class="list-group-item">Website/blog: ${user.blog}</li>
