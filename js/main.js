@@ -38,8 +38,6 @@ $(document).ready(function(){
               </div>
            </div>
           </div>
-
-
           `);
         });
       });
@@ -74,7 +72,6 @@ $(document).ready(function(){
         </div>
         <h3 class="page-header">Latest Repos</h3>
         <div id="repos"></div>
-
         `);
     });
   });
