@@ -31,7 +31,7 @@ $(document).ready(function(){
                 <span class="label label-primary">Watchers: ${repo.watchers_count}</span>
                 <span class="label label-success">Stars: ${repo.stargazers_count}</span>
                 <span class="label label-info">Language: ${repo.language}</span>
-                <span class="label label-danger">Contribution: ${repo.contributions}</span>
+                
                 </div>
                 <div class="col-md-2">
                 <a href="${repo.html_url}" targets="_blank" class="btn btn-default">Repo Page</a>
@@ -80,3 +80,5 @@ $(document).ready(function(){
 //makes request to url, sending along our credentials and gives us this user's info in obj format
 //instead of concatinating everything, we will be using template literals which are part of es6 syntax
  //it allows us to use multiple lines and inserting variables
+
+ //<span class="label label-danger">Contribution: ${repo.contributions}</span>
