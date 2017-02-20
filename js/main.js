@@ -31,7 +31,6 @@ $(document).ready(function(){
                 <span class="label label-primary">Watchers: ${repo.watchers_count}</span>
                 <span class="label label-success">Stars: ${repo.stargazers_count}</span>
                 <span class="label label-info">Language: ${repo.language}</span>
-                
                 </div>
                 <div class="col-md-2">
                 <a href="${repo.html_url}" targets="_blank" class="btn btn-default">Repo Page</a>
